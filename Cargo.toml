@@ -1,0 +1,14 @@
+[package]
+name = "zorvinkel-bird-avatars"
+version = "0.1.0"
+edition = "2024"
+description = "Deterministic, compact bird avatars rendered as SVG"
+license = "GPL-3.0-or-later"
+readme = "README.md"
+keywords = ["avatar", "svg", "identicon"]
+categories = ["graphics"]
+publish = false
+
+[dependencies]
+
+[workspace]
