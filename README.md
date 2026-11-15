@@ -2,7 +2,7 @@
 
 Deterministic bird avatars as SVG. A seed yields a 19-byte, versioned *spec*; the spec renders to a songbird in side view (body, head, beak, eye, wing, tail, legs, optional crest and belly). No dependencies, no unsafe code, no randomness at render time.
 
-Developed for [Zorvinkel](https://github.com/), where a device stores its avatar spec once and every client renders it identically. The library is independent of Zorvinkel and usable on its own.
+Developed for Zorvinkel, where a device stores its avatar spec once and every client renders it identically. The library is independent of Zorvinkel and usable on its own.
 
 ![Contact sheet of generated birds](docs/gallery.png)
 
@@ -10,7 +10,7 @@ Developed for [Zorvinkel](https://github.com/), where a device stores its avatar
 
 ```toml
 [dependencies]
-zorvinkel-bird-avatars = { git = "https://github.com/<owner>/zorvinkel-bird-avatars" }
+zorvinkel-bird-avatars = { git = "https://github.com/wizkah/zorvinkel-bird-avatars" }
 ```
 
 ```rust
@@ -40,4 +40,4 @@ cargo run --example gallery -- gallery.svg 36   # contact sheet
 
 ## License
 
-GPL-3.0-or-later, see [LICENSE](LICENSE).
+MIT, see [LICENSE](LICENSE).
